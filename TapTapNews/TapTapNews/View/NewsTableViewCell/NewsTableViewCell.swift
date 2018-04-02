@@ -1,16 +1,20 @@
 //
 //  NewsTableViewCell.swift
-//  TapTapNews
+//  Tap_New_iOS
 //
-//  Created by WanliMa on 2018/3/29.
-//  Copyright © 2018年 WanliMa. All rights reserved.
+//  Created by Yichi Zhang on 1/7/18.
+//  Copyright © 2018 Yichi Zhang. All rights reserved.
 //
 
 import UIKit
 
 class NewsTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var previewImage: UIImageView!
-    @IBOutlet weak var title: UILabel!
+    
+    @IBOutlet weak var background: UIView!
+    
+    @IBOutlet weak var preview: UIImageView!
+    
+    @IBOutlet weak var titlePreview: UILabel!
+    
     
 }

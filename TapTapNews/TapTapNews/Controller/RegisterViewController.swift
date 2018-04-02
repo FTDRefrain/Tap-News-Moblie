@@ -1,43 +1,41 @@
 //
 //  RegisterViewController.swift
-//  TapTapNews
+//  Tap_New_iOS
 //
-//  Created by WanliMa on 2018/3/30.
-//  Copyright © 2018年 WanliMa. All rights reserved.
+//  Created by Yichi Zhang on 2/21/18.
+//  Copyright © 2018 Yichi Zhang. All rights reserved.
 //
 
 import UIKit
 import Firebase
 import SVProgressHUD
-import FirebaseAuth
 
 class RegisterViewController: UIViewController {
 
-    @IBOutlet weak var email: UITextField!
-    
-    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
-    @IBAction func RegisterPressed() {
+    @IBAction func registerPressed() {
         SVProgressHUD.show()
         
-        Auth.auth().createUser(withEmail: email.text!, password: password.text!, completion: {
-            (use, err) in
+        Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, err) in
+            
             if err != nil {
-                print(err)
+                print(err!)
             }
             else {
-                print("registation successful")
+                print("registration successful")
+                
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "GetIntoNews", sender: self)
+                
+                self.performSegue(withIdentifier: "GetIntoNews", sender: self) //baby-sitter
             }
         })
     }
-    
 }

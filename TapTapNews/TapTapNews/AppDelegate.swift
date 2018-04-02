@@ -1,9 +1,9 @@
- //
+//
 //  AppDelegate.swift
 //  TapTapNews
 //
-//  Created by WanliMa on 2018/3/29.
-//  Copyright © 2018年 WanliMa. All rights reserved.
+//  Created by Yichi Zhang on 3/26/18.
+//  Copyright © 2018 Yichi Zhang. All rights reserved.
 //
 
 import UIKit

@@ -7,150 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23E7D57FCE3F5C255150DF8D /* Pods_TapTapNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5B2C15F1F21C70851BE1D /* Pods_TapTapNews.framework */; };
-		8E6B642B206D63E300C4F900 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B642A206D63E300C4F900 /* NewsTableViewController.swift */; };
-		8E6B642D206D6D1600C4F900 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B642C206D6D1600C4F900 /* News.swift */; };
-		8E6B642F206D6D5600C4F900 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B642E206D6D5600C4F900 /* NewsList.swift */; };
-		8E6B6432206DCC4600C4F900 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B6430206DCC4600C4F900 /* NewsTableViewCell.swift */; };
-		8E6B6433206DCC4600C4F900 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B6431206DCC4600C4F900 /* NewsTableViewCell.xib */; };
-		8E6B6436206DF4B300C4F900 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B6435206DF4B300C4F900 /* GoogleService-Info.plist */; };
-		8E6B6438206E805B00C4F900 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B6437206E805B00C4F900 /* RegisterViewController.swift */; };
-		8E849290206D3BC100683101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84928F206D3BC100683101 /* AppDelegate.swift */; };
-		8E849295206D3BC100683101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E849293206D3BC100683101 /* Main.storyboard */; };
-		8E849297206D3BC100683101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E849296206D3BC100683101 /* Assets.xcassets */; };
-		8E84929A206D3BC100683101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E849298206D3BC100683101 /* LaunchScreen.storyboard */; };
+		2C253E032069E7CB002B0F1F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C253E012069E7CB002B0F1F /* News.swift */; };
+		2C253E042069E7CB002B0F1F /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C253E022069E7CB002B0F1F /* NewsList.swift */; };
+		2CCE9D2D2069E4FD0068607C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE9D2C2069E4FD0068607C /* AppDelegate.swift */; };
+		2CCE9D322069E4FD0068607C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE9D302069E4FD0068607C /* Main.storyboard */; };
+		2CCE9D342069E4FD0068607C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE9D332069E4FD0068607C /* Assets.xcassets */; };
+		2CCE9D372069E4FD0068607C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE9D352069E4FD0068607C /* LaunchScreen.storyboard */; };
+		2CE7D8C5206B3C72008C06A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7D8C2206B3C72008C06A1 /* RegisterViewController.swift */; };
+		2CE7D8C6206B3C72008C06A1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7D8C3206B3C72008C06A1 /* LogInViewController.swift */; };
+		2CE7D8CE206B3D3B008C06A1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7D8CC206B3D3B008C06A1 /* NewsTableViewCell.swift */; };
+		2CE7D8CF206B3D3B008C06A1 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE7D8CD206B3D3B008C06A1 /* NewsTableViewCell.xib */; };
+		2CE7D8D1206B3D54008C06A1 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7D8D0206B3D54008C06A1 /* NewsDetailViewController.swift */; };
+		8E5701CD207281C500BE6BF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E5701CC207281C500BE6BF6 /* GoogleService-Info.plist */; };
+		8E5701CF207287CF00BE6BF6 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5701CE207287CF00BE6BF6 /* NewsTableViewController.swift */; };
+		D4915D827DD8221B1B60DB97 /* Pods_TapTapNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F49EE1C74C9994D5B9B0D30 /* Pods_TapTapNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48CEF4F92CFBD162E54D999D /* Pods-TapTapNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews.release.xcconfig"; sourceTree = "<group>"; };
-		81A5B2C15F1F21C70851BE1D /* Pods_TapTapNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTapNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E6B642A206D63E300C4F900 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
-		8E6B642C206D6D1600C4F900 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
-		8E6B642E206D6D5600C4F900 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
-		8E6B6430206DCC4600C4F900 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
-		8E6B6431206DCC4600C4F900 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
-		8E6B6435206DF4B300C4F900 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8E6B6437206E805B00C4F900 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		8E84928C206D3BC100683101 /* TapTapNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTapNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E84928F206D3BC100683101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E849294206D3BC100683101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E849296206D3BC100683101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E849299206D3BC100683101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E84929B206D3BC100683101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D81E34A904B6E12A3966C7D6 /* Pods-TapTapNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews.debug.xcconfig"; sourceTree = "<group>"; };
+		0F7837DA6DFA031D7CCDF676 /* Pods-TapTapNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews.release.xcconfig"; sourceTree = "<group>"; };
+		2C253E012069E7CB002B0F1F /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2C253E022069E7CB002B0F1F /* NewsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		2CCE9D292069E4FD0068607C /* TapTapNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTapNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCE9D2C2069E4FD0068607C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CCE9D312069E4FD0068607C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CCE9D332069E4FD0068607C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCE9D362069E4FD0068607C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CCE9D382069E4FD0068607C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE7D8C2206B3C72008C06A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2CE7D8C3206B3C72008C06A1 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		2CE7D8CC206B3D3B008C06A1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		2CE7D8CD206B3D3B008C06A1 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		2CE7D8D0206B3D54008C06A1 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		2F49EE1C74C9994D5B9B0D30 /* Pods_TapTapNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTapNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5701CC207281C500BE6BF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E5701CE207287CF00BE6BF6 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		F8BD13E7864616580A949274 /* Pods-TapTapNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E849289206D3BC100683101 /* Frameworks */ = {
+		2CCE9D262069E4FD0068607C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E7D57FCE3F5C255150DF8D /* Pods_TapTapNews.framework in Frameworks */,
+				D4915D827DD8221B1B60DB97 /* Pods_TapTapNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		566484B550C7AD22BA71EFB4 /* Pods */ = {
+		2CCE9D202069E4FD0068607C = {
 			isa = PBXGroup;
 			children = (
-				D81E34A904B6E12A3966C7D6 /* Pods-TapTapNews.debug.xcconfig */,
-				48CEF4F92CFBD162E54D999D /* Pods-TapTapNews.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8E6B6434206DCC5A00C4F900 /* NewsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				8E6B6430206DCC4600C4F900 /* NewsTableViewCell.swift */,
-				8E6B6431206DCC4600C4F900 /* NewsTableViewCell.xib */,
-			);
-			path = NewsTableViewCell;
-			sourceTree = "<group>";
-		};
-		8E849283206D3BC100683101 = {
-			isa = PBXGroup;
-			children = (
-				8E84928E206D3BC100683101 /* TapTapNews */,
-				8E84928D206D3BC100683101 /* Products */,
-				566484B550C7AD22BA71EFB4 /* Pods */,
-				B3AF58C2FA086E625DACCFA1 /* Frameworks */,
+				2CCE9D2B2069E4FD0068607C /* TapTapNews */,
+				2CCE9D2A2069E4FD0068607C /* Products */,
+				8CB8AA0DACA2A290838AEE5D /* Pods */,
+				4B59C0012A85F941E98E31EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		8E84928D206D3BC100683101 /* Products */ = {
+		2CCE9D2A2069E4FD0068607C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E84928C206D3BC100683101 /* TapTapNews.app */,
+				2CCE9D292069E4FD0068607C /* TapTapNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E84928E206D3BC100683101 /* TapTapNews */ = {
+		2CCE9D2B2069E4FD0068607C /* TapTapNews */ = {
 			isa = PBXGroup;
 			children = (
-				8E8492A3206D3C0500683101 /* Model */,
-				8E8492A2206D3BF300683101 /* View */,
-				8E8492A1206D3BDB00683101 /* Controller */,
-				8E84928F206D3BC100683101 /* AppDelegate.swift */,
-				8E84929B206D3BC100683101 /* Info.plist */,
-				8E6B6435206DF4B300C4F900 /* GoogleService-Info.plist */,
+				2CCE9D402069E51A0068607C /* Model */,
+				2CCE9D3F2069E5140068607C /* View */,
+				2CCE9D3E2069E50B0068607C /* Controller */,
+				2CCE9D2C2069E4FD0068607C /* AppDelegate.swift */,
+				8E5701CC207281C500BE6BF6 /* GoogleService-Info.plist */,
+				2CCE9D382069E4FD0068607C /* Info.plist */,
 			);
 			path = TapTapNews;
 			sourceTree = "<group>";
 		};
-		8E8492A1206D3BDB00683101 /* Controller */ = {
+		2CCE9D3E2069E50B0068607C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8E6B642A206D63E300C4F900 /* NewsTableViewController.swift */,
-				8E6B6437206E805B00C4F900 /* RegisterViewController.swift */,
+				2CE7D8D0206B3D54008C06A1 /* NewsDetailViewController.swift */,
+				2CE7D8C3206B3C72008C06A1 /* LogInViewController.swift */,
+				2CE7D8C2206B3C72008C06A1 /* RegisterViewController.swift */,
+				8E5701CE207287CF00BE6BF6 /* NewsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		8E8492A2206D3BF300683101 /* View */ = {
+		2CCE9D3F2069E5140068607C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E849293206D3BC100683101 /* Main.storyboard */,
-				8E849296206D3BC100683101 /* Assets.xcassets */,
-				8E849298206D3BC100683101 /* LaunchScreen.storyboard */,
-				8E6B6434206DCC5A00C4F900 /* NewsTableViewCell */,
+				2CCE9D302069E4FD0068607C /* Main.storyboard */,
+				2CCE9D332069E4FD0068607C /* Assets.xcassets */,
+				2CCE9D352069E4FD0068607C /* LaunchScreen.storyboard */,
+				8E5701D02072B1C400BE6BF6 /* NewsTableViewCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		8E8492A3206D3C0500683101 /* Model */ = {
+		2CCE9D402069E51A0068607C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8E6B642C206D6D1600C4F900 /* News.swift */,
-				8E6B642E206D6D5600C4F900 /* NewsList.swift */,
+				2C253E012069E7CB002B0F1F /* News.swift */,
+				2C253E022069E7CB002B0F1F /* NewsList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B3AF58C2FA086E625DACCFA1 /* Frameworks */ = {
+		4B59C0012A85F941E98E31EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81A5B2C15F1F21C70851BE1D /* Pods_TapTapNews.framework */,
+				2F49EE1C74C9994D5B9B0D30 /* Pods_TapTapNews.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB8AA0DACA2A290838AEE5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD13E7864616580A949274 /* Pods-TapTapNews.debug.xcconfig */,
+				0F7837DA6DFA031D7CCDF676 /* Pods-TapTapNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E5701D02072B1C400BE6BF6 /* NewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2CE7D8CC206B3D3B008C06A1 /* NewsTableViewCell.swift */,
+				2CE7D8CD206B3D3B008C06A1 /* NewsTableViewCell.xib */,
+			);
+			path = NewsTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E84928B206D3BC100683101 /* TapTapNews */ = {
+		2CCE9D282069E4FD0068607C /* TapTapNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E84929E206D3BC100683101 /* Build configuration list for PBXNativeTarget "TapTapNews" */;
+			buildConfigurationList = 2CCE9D3B2069E4FD0068607C /* Build configuration list for PBXNativeTarget "TapTapNews" */;
 			buildPhases = (
-				F81607D5C7F1E725D552B7B7 /* [CP] Check Pods Manifest.lock */,
-				8E849288206D3BC100683101 /* Sources */,
-				8E849289206D3BC100683101 /* Frameworks */,
-				8E84928A206D3BC100683101 /* Resources */,
-				BD784EFAB2ECF127DC58D8A4 /* [CP] Embed Pods Frameworks */,
-				C882067B3D0C4F0C8058E7A3 /* [CP] Copy Pods Resources */,
+				19EAB56567318A3706A6FE92 /* [CP] Check Pods Manifest.lock */,
+				2CCE9D252069E4FD0068607C /* Sources */,
+				2CCE9D262069E4FD0068607C /* Frameworks */,
+				2CCE9D272069E4FD0068607C /* Resources */,
+				7CD7B7CD1A9EFBC0D6C51C42 /* [CP] Embed Pods Frameworks */,
+				181F6D274CDEB5FB8B7FC522 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,26 +164,26 @@
 			);
 			name = TapTapNews;
 			productName = TapTapNews;
-			productReference = 8E84928C206D3BC100683101 /* TapTapNews.app */;
+			productReference = 2CCE9D292069E4FD0068607C /* TapTapNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E849284206D3BC100683101 /* Project object */ = {
+		2CCE9D212069E4FD0068607C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = WanliMa;
+				ORGANIZATIONNAME = "Yichi Zhang";
 				TargetAttributes = {
-					8E84928B206D3BC100683101 = {
+					2CCE9D282069E4FD0068607C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 8E849287206D3BC100683101 /* Build configuration list for PBXProject "TapTapNews" */;
+			buildConfigurationList = 2CCE9D242069E4FD0068607C /* Build configuration list for PBXProject "TapTapNews" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,33 +191,66 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E849283206D3BC100683101;
-			productRefGroup = 8E84928D206D3BC100683101 /* Products */;
+			mainGroup = 2CCE9D202069E4FD0068607C;
+			productRefGroup = 2CCE9D2A2069E4FD0068607C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E84928B206D3BC100683101 /* TapTapNews */,
+				2CCE9D282069E4FD0068607C /* TapTapNews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E84928A206D3BC100683101 /* Resources */ = {
+		2CCE9D272069E4FD0068607C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E84929A206D3BC100683101 /* LaunchScreen.storyboard in Resources */,
-				8E849297206D3BC100683101 /* Assets.xcassets in Resources */,
-				8E6B6436206DF4B300C4F900 /* GoogleService-Info.plist in Resources */,
-				8E6B6433206DCC4600C4F900 /* NewsTableViewCell.xib in Resources */,
-				8E849295206D3BC100683101 /* Main.storyboard in Resources */,
+				2CCE9D372069E4FD0068607C /* LaunchScreen.storyboard in Resources */,
+				2CCE9D342069E4FD0068607C /* Assets.xcassets in Resources */,
+				8E5701CD207281C500BE6BF6 /* GoogleService-Info.plist in Resources */,
+				2CCE9D322069E4FD0068607C /* Main.storyboard in Resources */,
+				2CE7D8CF206B3D3B008C06A1 /* NewsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BD784EFAB2ECF127DC58D8A4 /* [CP] Embed Pods Frameworks */ = {
+		181F6D274CDEB5FB8B7FC522 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19EAB56567318A3706A6FE92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapTapNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD7B7CD1A9EFBC0D6C51C42 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,70 +276,39 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C882067B3D0C4F0C8058E7A3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapTapNews/Pods-TapTapNews-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F81607D5C7F1E725D552B7B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TapTapNews-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E849288206D3BC100683101 /* Sources */ = {
+		2CCE9D252069E4FD0068607C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E6B642D206D6D1600C4F900 /* News.swift in Sources */,
-				8E6B642B206D63E300C4F900 /* NewsTableViewController.swift in Sources */,
-				8E6B6432206DCC4600C4F900 /* NewsTableViewCell.swift in Sources */,
-				8E6B6438206E805B00C4F900 /* RegisterViewController.swift in Sources */,
-				8E6B642F206D6D5600C4F900 /* NewsList.swift in Sources */,
-				8E849290206D3BC100683101 /* AppDelegate.swift in Sources */,
+				2CE7D8D1206B3D54008C06A1 /* NewsDetailViewController.swift in Sources */,
+				2C253E032069E7CB002B0F1F /* News.swift in Sources */,
+				2CE7D8CE206B3D3B008C06A1 /* NewsTableViewCell.swift in Sources */,
+				2C253E042069E7CB002B0F1F /* NewsList.swift in Sources */,
+				8E5701CF207287CF00BE6BF6 /* NewsTableViewController.swift in Sources */,
+				2CCE9D2D2069E4FD0068607C /* AppDelegate.swift in Sources */,
+				2CE7D8C6206B3C72008C06A1 /* LogInViewController.swift in Sources */,
+				2CE7D8C5206B3C72008C06A1 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E849293206D3BC100683101 /* Main.storyboard */ = {
+		2CCE9D302069E4FD0068607C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E849294206D3BC100683101 /* Base */,
+				2CCE9D312069E4FD0068607C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8E849298206D3BC100683101 /* LaunchScreen.storyboard */ = {
+		2CCE9D352069E4FD0068607C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E849299206D3BC100683101 /* Base */,
+				2CCE9D362069E4FD0068607C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -308,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8E84929C206D3BC100683101 /* Debug */ = {
+		2CCE9D392069E4FD0068607C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		8E84929D206D3BC100683101 /* Release */ = {
+		2CCE9D3A2069E4FD0068607C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,12 +423,13 @@
 			};
 			name = Release;
 		};
-		8E84929F206D3BC100683101 /* Debug */ = {
+		2CCE9D3C2069E4FD0068607C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D81E34A904B6E12A3966C7D6 /* Pods-TapTapNews.debug.xcconfig */;
+			baseConfigurationReference = F8BD13E7864616580A949274 /* Pods-TapTapNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TapTapNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.wanlima.TapTapNews;
@@ -430,12 +439,13 @@
 			};
 			name = Debug;
 		};
-		8E8492A0206D3BC100683101 /* Release */ = {
+		2CCE9D3D2069E4FD0068607C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48CEF4F92CFBD162E54D999D /* Pods-TapTapNews.release.xcconfig */;
+			baseConfigurationReference = 0F7837DA6DFA031D7CCDF676 /* Pods-TapTapNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TapTapNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.wanlima.TapTapNews;
@@ -448,25 +458,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E849287206D3BC100683101 /* Build configuration list for PBXProject "TapTapNews" */ = {
+		2CCE9D242069E4FD0068607C /* Build configuration list for PBXProject "TapTapNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E84929C206D3BC100683101 /* Debug */,
-				8E84929D206D3BC100683101 /* Release */,
+				2CCE9D392069E4FD0068607C /* Debug */,
+				2CCE9D3A2069E4FD0068607C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E84929E206D3BC100683101 /* Build configuration list for PBXNativeTarget "TapTapNews" */ = {
+		2CCE9D3B2069E4FD0068607C /* Build configuration list for PBXNativeTarget "TapTapNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E84929F206D3BC100683101 /* Debug */,
-				8E8492A0206D3BC100683101 /* Release */,
+				2CCE9D3C2069E4FD0068607C /* Debug */,
+				2CCE9D3D2069E4FD0068607C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E849284206D3BC100683101 /* Project object */;
+	rootObject = 2CCE9D212069E4FD0068607C /* Project object */;
 }
